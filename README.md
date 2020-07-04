@@ -14,4 +14,5 @@
 - Import database
 - Extract `assets` and `vendor`. Path in `ci4-system-login/public`
 - `cd ci4-system-login`
+- `composer install`
 - `php spark serve` to start the app
