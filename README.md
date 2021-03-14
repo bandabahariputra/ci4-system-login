@@ -1,18 +1,25 @@
-<h1>Codeigniter 4 Sytem Login</h1>
+# System Login CodeIgniter 4
 
-<p align="center">
-	
-<img align="center" src="http://ForTheBadge.com/images/badges/built-with-love.svg"> <img align="center" src="https://forthebadge.com/images/badges/uses-js.svg"> <img align="center" src="http://ForTheBadge.com/images/badges/makes-people-smile.svg"> <img align="center" src="http://ForTheBadge.com/images/badges/built-by-developers.svg">
+Aplikasi login sistem menggunakan CodeIgniter 4.
 
-</p>
+## Development server
 
-### ✨ Demo
-**Demo sementara ini belum saya hosting. Dikarenakan project ini masih beta dan dana yang kurang.** Kalian cukup fork lalu clone dan jalankan di localhost saja ya! atau kalian bisa download project ini via github apabila kalian belum familiar dengan github.
+1. Clone atau download project ini
 
-## 💻 Installation
-- `git clone https://github.com/bandabahariputra/ci4-system-login.git`
-- Import database
-- Extract `assets` and `vendor`. Path in `ci4-system-login/public`
-- `cd ci4-system-login`
-- `composer install`
-- `php spark serve` to start the app
+2. Masuk kedalam folder project
+
+3. Update Composer
+
+```
+composer update
+```
+
+4. Buat database baru dengan nama sesuai dengan yang ada di file `.env`
+
+5. Import database yang sudah ada didalam folder project
+
+6. Jalankan local development
+
+```
+php spark serve
+```
